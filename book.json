@@ -1,7 +1,17 @@
 {
     "plugins": [ 
-        "expandable-chapters"
+        "expandable-chapters","donate"
     ],
+    "pluginsConfig": {
+        "donate": {
+          "wechat": "微信捐赠二维码图片地址",
+          "alipay": "支付宝捐赠二维码图片地址",
+          "title": "捐赠",
+          "button": "默认值：Donate",
+          "alipayText": "默认值：支付宝捐赠",
+          "wechatText": "默认值：微信捐赠"
+        }
+    },
     "links": {
         "sidebar": {
             "百度": "https://www.baidu.com"
