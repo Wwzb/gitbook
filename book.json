@@ -1,11 +1,3 @@
 {
-    "plugins": [
-        "multilingual-index"
-    ],
-    "pluginsConfig": {
-        "multilingual-index": {
-            "enableSuper": false,
-            "index": "index.html"
-        }
-    }
+    "language": "en"
 }
